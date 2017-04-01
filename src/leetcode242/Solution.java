@@ -5,7 +5,7 @@ package leetcode242;
  */
 public class Solution {
     public boolean isAnagram(String s, String t){
-
+        boolean res = false;
     }
     public static void main(String[] args) {
 
