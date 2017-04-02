@@ -1,5 +1,10 @@
 package software;
-
+/**
+ * 微软笔试第一题
+ * 括号对序列，添加最少的括号对让其配对
+ * （1）最少多少个
+ * （2）最后的配对的括号对有多少种
+ */
 public class Solution {
 	public static int minS(String s){
 		int i=0,j=0,k=0;
