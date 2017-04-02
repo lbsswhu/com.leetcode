@@ -32,4 +32,8 @@ public class Solution {
         }
         return ress==s.length()?ress:(ress+1);
     }
+
+    public static void main(String[] args) {
+
+    }
 }
