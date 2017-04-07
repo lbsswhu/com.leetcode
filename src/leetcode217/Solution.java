@@ -14,10 +14,10 @@ public class Solution {
         for (int num:nums
              ) {
             if(set.contains(num))
-                return false;
+                return true;
             else
                 set.add(num);
         }
-        return true;
+        return false;
     }
 }
