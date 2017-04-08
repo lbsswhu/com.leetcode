@@ -1,5 +1,8 @@
 package leetcode447;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by Lb on 17-4-7.
  * https://leetcode.com/problems/number-of-boomerangs/#/description
@@ -16,20 +19,32 @@ package leetcode447;
  The two boomeraon:ngs are [[1,0],[0,0],[2,0]] and [[1,0],[2,0],[0,0]]
  */
 public class Solution {
-    public static boolean sameDistance(int[] point1,int[] points2,int[] points3){
-        return (Math.pow((point1[0]-points2[0]),2)+Math.pow((point1[1]-points2[1]),2))==
-                (Math.pow((point1[0]-points3[0]),2)+Math.pow((point1[1]-points3[1]),2));
+    public static int getDistance(int[] point1,int[] points2){
+        return (int) (Math.pow(point1[0]-points2[0],2)+Math.pow(point1[1]-points2[1],2));
     }
-    public int numberOfBoomerangs(int[][] points) {
+    public static int numberOfBoomerangs(int[][] points) {
         int res = 0;
-        return 0;
+        Map<Integer,Integer> map = new HashMap<>();
+        for (int i = 0; i < points.length; i++) {
+            for (int j = 0; j < points.length; j++) {
+                if(i==j)
+                    continue;
+                else{
+                    int dis = getDistance(points[i],points[j]);
+                    map.put(dis,map.getOrDefault(dis,0)+1);
+                }
+            }
+            for (int var:map.values()
+                 ) {
+                res += var*(var-1);
+            }
+            map.clear();
+        }
+        return res;
     }
 
     public static void main(String[] args) {
-        int[][] test={{1,0},{0,0},{3,0}};
-        if(sameDistance(test[0],test[1],test[2]))
-            System.out.println("1");
-        else
-            System.out.println("0");
+        int[][] test={{1,0},{0,0},{2,0}};
+        System.out.println(numberOfBoomerangs(test));
     }
 }
