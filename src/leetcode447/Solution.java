@@ -37,6 +37,7 @@ public class Solution {
             for (int var:map.values()
                  ) {
                 res += var*(var-1);
+                // 即为A(n,2)
             }
             map.clear();
         }
