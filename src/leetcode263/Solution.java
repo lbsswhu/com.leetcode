@@ -12,6 +12,9 @@ public class Solution {
         while(num%5 ==0){
             num = num / 5;
         }
-        return num==1;
+        if(num ==1)
+            return true;
+        else
+            return false;
     }
 }
