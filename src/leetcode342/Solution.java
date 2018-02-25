@@ -9,8 +9,8 @@ package leetcode342;
 public class Solution {
     public boolean isPowerOfFour(int num) {
         if(num<0) return false;
-        if((num & (num - 1))!=0) return false;//åˆ¤æ–­æ˜¯å¦æ˜¯2çš„å¹‚ï¼Œè€Œ4çš„å¹‚çš„äºŒè¿›åˆ¶ç‰¹ç‚¹æ˜¯1åŠ ä¸Šå¶æ•°ä¸ª0
-        if((num & 0x55555555)!=0) return true;//åˆ¤æ–­1æ˜¯å¦åœ¨å¥‡æ•°ä½ä¸Š
+        if((num & (num - 1))!=0) return false;//ÅÐ¶ÏÊÇ·ñÊÇ2µÄÃÝ£¬¶ø4µÄÃÝµÄ¶þ½øÖÆÌØµãÊÇ1¼ÓÉÏÅ¼Êý¸ö0
+        if((num & 0x55555555)!=0) return true;//ÅÐ¶Ï1ÊÇ·ñÔÚÆæÊýÎ»ÉÏ
         else
             return false;
     }

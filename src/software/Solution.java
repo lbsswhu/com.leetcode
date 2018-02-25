@@ -1,9 +1,9 @@
 package software;
 /**
- * å¾®è½¯ç¬”è¯•ç¬¬ä¸€é¢˜
- * æ‹¬å·å¯¹åºåˆ—ï¼Œæ·»åŠ æœ€å°‘çš„æ‹¬å·å¯¹è®©å…¶é…å¯¹
- * ï¼ˆ1ï¼‰æœ€å°‘å¤šå°‘ä¸ª
- * ï¼ˆ2ï¼‰æœ€åŽçš„é…å¯¹çš„æ‹¬å·å¯¹æœ‰å¤šå°‘ç§
+ * Î¢Èí±ÊÊÔµÚÒ»Ìâ
+ * À¨ºÅ¶ÔÐòÁÐ£¬Ìí¼Ó×îÉÙµÄÀ¨ºÅ¶ÔÈÃÆäÅä¶Ô
+ * £¨1£©×îÉÙ¶àÉÙ¸ö
+ * £¨2£©×îºóµÄÅä¶ÔµÄÀ¨ºÅ¶ÔÓÐ¶àÉÙÖÖ
  */
 public class Solution {
 	public static int minS(String s){

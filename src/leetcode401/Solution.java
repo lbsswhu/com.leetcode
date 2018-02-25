@@ -27,7 +27,7 @@ public class Solution {
         for (int i = 0; i < 12; i++) {
             for (int j = 0; j < 60; j++) {
                 //if((numofone(i)+numofone(j)) == num)
-                //bitCountè¿”å›žè¡¥ç ä¸­1çš„ä¸ªæ•°
+                //bitCount·µ»Ø²¹ÂëÖÐ1µÄ¸öÊý
                 if(Integer.bitCount(i * 64 + j) == num)
                     res.add(watchtime(i,j));
             }

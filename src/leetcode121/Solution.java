@@ -23,7 +23,7 @@ public class Solution {
         return dis;
     }
 }
-//å¡ç™»ç®—æ³• æ±‚æœ€å¤§å­ä¸²å’Œ åŠ¨æ€è§„åˆ’
+//¿¨µÇËã·¨ Çó×î´ó×Ó´®ºÍ ¶¯Ì¬¹æ»®
 //The logic to solve this problem is same as "max subarray problem" using Kadane's Algorithm. Since no body has mentioned this so far,
 // I thought it's a good thing for everybody to know.
 //

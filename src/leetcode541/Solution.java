@@ -13,8 +13,8 @@ package leetcode541;
 
 /*
    public String subString(int beginIndex, int endIndex)
-   beginIndexä¸ºå¼€å§‹å¤„çš„ç´¢å¼•ï¼ˆåŒ…æ‹¬è¯¥ä½ç½®ï¼‰ã€‚
-   endIndexä¸ºç»“æŸç´¢å¼•ï¼ˆä¸åŒ…æ‹¬è¯¥ç´¢å¼•ä½ç½®ï¼‰ã€‚
+   beginIndexÎª¿ªÊ¼´¦µÄË÷Òı£¨°üÀ¨¸ÃÎ»ÖÃ£©¡£
+   endIndexÎª½áÊøË÷Òı£¨²»°üÀ¨¸ÃË÷ÒıÎ»ÖÃ£©¡£
  */
 public class Solution {
     public static String reverseStr(String s, int k) {

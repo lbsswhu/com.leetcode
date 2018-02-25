@@ -16,9 +16,9 @@ public class Solution {
     }
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
-		System.out.println("请输入第一个值");
+		System.out.println("???????????");
 		int a = in.nextInt();
-		System.out.println("请输入第二个值");
+		System.out.println("???????????");
 		int b = in.nextInt();
 		System.out.println(getSum(a,b));
 	}

@@ -18,10 +18,10 @@ public class Solution {
 	}
 	public int findContentChildren(int[] g,int[] s){
 		int res = 0;
-		//πÈ≤¢≈≈–Ú
+		//?ˆ„????
 		Arrays.sort(g);
 		Arrays.sort(s);
-		//√∞≈›≈≈–Ú
+		//???????
 		lsort(g);
 		lsort(s);
 		for(int i = 0;i<g.length;i++){
