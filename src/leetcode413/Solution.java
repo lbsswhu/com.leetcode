@@ -7,6 +7,7 @@ package leetcode413;
  **/
 public class Solution {
     int res;
+    int r;
     public int numberOfArithmeticSlices(int[] A) {
 //        for(int i =0;i<A.length-1;i++){
 //            int temp = A[i+1]-A[i];
